@@ -11,5 +11,4 @@ $\mathcal{M}$: m-dimentional, compact, smooth, manifold embedded in $R^d$
 
 $\mathcal{M}_n={x_1,...,x_n}$
 
-$L^2(r):$ space of functions on underlying manifold, Square Integrable Functions in $L^2(r)$ can be writen in terms of the (normalized) eigenfunctions ${phi_i}_{i=1}^{\infty}$ of Laplacian Beltrami operator $\Delta_{\mathcal{M}}$. ![](http://latex.codecogs.com/gif.latex?\\frac{1}{1+sin(x)})
-
+$L^2(r):$ space of functions on underlying manifold, Square Integrable Functions in $L^2(r)$ can be writen in terms of the (normalized) eigenfunctions \phi of Laplacian Beltrami operator $\Delta_{\mathcal{M}}$.
