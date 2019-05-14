@@ -28,5 +28,11 @@ $D_n$ is the degree matrix of weighted graph: $D_{ii}=\sum_{j=1}^nW_n(x_i,x_j)$.
 
 2.Graph prior
 
-$u_n\sim \widetilde{\pi_n}$
+$u_n\sim \widetilde{\pi_n}=N(0,C_{u_n})$ and $C_{u_n}=(\alphaI_n+\Delta^{\mathcal{M}_n})^{-\frac{s}{2}}$. Then $u_n=\sum_{i=1}^{k_n}(\alpha+\lambda_i^n)^{-\frac{s}{4}}\xi_i\phi_i^n$, here $\xi_n\sim N(0,1)$
+
+3.Graph $\mathcal{F}$ and observation map $\mathcal{O}$
+
+$\mathcal{F}:L^2(r_n)\rightarrow L^2(r_n)$ $\mathcal{F}_nu_n=\mathcal{F}_n^tu_n=e^{-t\Delta_{\mathcal{M}_n}u_n}$
+
+$\mathcal{O}_n:$ for $\delta>0$, $L^2(r_n)\rightarrow R^p$ for $W\in L^2(r_n)$
 
