@@ -3,12 +3,16 @@
 This project is my research project during master degree. I work on Graph Laplician and try to find some methods to detect objects inspiring from graph Laplacian and Spectrum clustering. And I will record some progress here and upload corresponding code.
 
 ## Task 1
-Read paper *ON THE CONSISTENCY OF GRAPH-BASED BAYESIAN LEARNING AND THE SCALABILITY OF SAMPLING ALGORITHMS* and know what is Graph Laplacian. This is a theoretical part.
+Read paper *ON THE CONSISTENCY OF GRAPH-BASED BAYESIAN LEARNING AND THE SCALABILITY OF SAMPLING ALGORITHMS* and know what is Graph Laplacian. This is a theoretical part and I focus on discrete settings.
 
 ### Notation
 
 $\mathcal{M}$: m-dimentional, compact, smooth, manifold embedded in $R^d$
 
-$\mathcal{M}_n={x_1,...,x_n}$
+$\mathcal{M}_n={x_1,...,x_n}$: i.i.d samples from uniform distribution on $\mathcal{M}$
 
-$L^2(r):$ space of functions on underlying manifold, Square Integrable Functions in $L^2(r)$ can be writen in terms of the (normalized) eigenfunctions $\{\phi_i\}^{\infty}$ of Laplacian Beltrami operator $\Delta_{\mathcal{M}}$.
+$L^2(r):$ space of functions on underlying manifold, Square Integrable Functions in $L^2(r)$ can be writen in terms of the (normalized) eigenfunctions {$\phi_i$} of Laplacian Beltrami operator $\Delta_{\mathcal{M}}$.
+
+### Setting
+
+
