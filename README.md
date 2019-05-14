@@ -19,13 +19,4 @@ View functions $u_n \in L^2(r_n)$ as vectors in $R^n$. That is let $u_n=[u_n(1),
 
 1. Geometric Graph and Graph-Laplacian
 
-First focus on $\epsilon$-neighborhood graphs(k-nearest-neighborhood would be better). Let $K:[0,\infty)\rightarrow [0,\infty)$
-$$
-K(r)=\{
-\begin{aligned}
-1,&if r\leq 1\\
-0,&otherwise
-\end{aligned}
-$$
-
-
+First focus on $\epsilon$-neighborhood graphs(k-nearest-neighborhood would be better). Let $K:[0,\infty)\rightarrow [0,\infty):$ $K(r)=1$ if $r\leq 1$. For $\epsilon>0$, $K_{\epsilon}(r)=\frac{m+2}{n^2\alpha_m\epsilon^{m+2}}K(\frac{r}{\epsilon})$
