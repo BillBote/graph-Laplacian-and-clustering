@@ -7,4 +7,5 @@ Read paper *ON THE CONSISTENCY OF GRAPH-BASED BAYESIAN LEARNING AND THE SCALABIL
 
 ### Notation
 
-$x_1$
+$\mathcal{M}$: m-dimentional, compact, smooth, manifold embedded in $R^d$
+$\mathcal{M}_n={x_1,...,x_n}$
