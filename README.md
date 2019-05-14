@@ -26,7 +26,7 @@ K(r)=\left\{
 1,&if r\leq 1\\
 0,&otherwise
 \end{aligned}
-\}\right.
+\right\}.
 $$
 
 
