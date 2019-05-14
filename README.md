@@ -21,12 +21,11 @@ View functions $u_n \in L^2(r_n)$ as vectors in $R^n$. That is let $u_n=[u_n(1),
 
 First focus on $\epsilon$-neighborhood graphs(k-nearest-neighborhood would be better). Let $K:[0,\infty)\rightarrow [0,\infty)$
 $$
-K(r)=\left\{
+K(r)=\{
 \begin{aligned}
 1,&if r\leq 1\\
 0,&otherwise
 \end{aligned}
-\right.
 $$
 
 
