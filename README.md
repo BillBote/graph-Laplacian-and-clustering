@@ -34,5 +34,17 @@ $u_n\sim \widetilde{\pi_n}=N(0,C_{u_n})$ and $C_{u_n}=(\alphaI_n+\Delta^{\mathca
 
 $\mathcal{F}:L^2(r_n)\rightarrow L^2(r_n)$ $\mathcal{F}_nu_n=\mathcal{F}_n^tu_n=e^{-t\Delta_{\mathcal{M}_n}u_n}$
 
-$\mathcal{O}_n:$ for $\delta>0$, $L^2(r_n)\rightarrow R^p$ for $W\in L^2(r_n)$
+$\mathcal{O}_n:$ for $\delta>0$, $L^2(r_n)\rightarrow R^p$ for $W\in L^2(r_n)$. We do not talk abour its specific form here.
+
+4.noise model
+
+Add random noise to the model we mentioned above.
+
+5. Graph Posterior
+
+## Task 2
+
+Plot of prior distribution and posterior distribution.
+
+We have obtain the simpler form of prior distribution via Karhunen-Loeve expansion
 
