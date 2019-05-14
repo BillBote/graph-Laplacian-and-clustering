@@ -13,6 +13,19 @@ $\mathcal{M}_n={x_1,...,x_n}$: i.i.d samples from uniform distribution on $\math
 
 $L^2(r):$ space of functions on underlying manifold, Square Integrable Functions in $L^2(r)$ can be writen in terms of the (normalized) eigenfunctions {$\phi_i$} of Laplacian Beltrami operator $\Delta_{\mathcal{M}}$.
 
-### Setting
+### Settings
+
+View functions $u_n \in L^2(r_n)$ as vectors in $R^n$. That is let $u_n=[u_n(1),...,u_n[n]]'$, $u_n(i)$ is evaluation of the function $u_n$ at $x_i$.
+
+1. Geometric Graph and Graph-Laplacian
+
+First focus on $\epslion$-neighborhood graphs(k-nearest-neighborhood would be better). Let 
+$$
+K(r)=\left\{
+\begin{aligned}
+1,&if r\leq 1\\
+0,&otherwise
+\end{aligned}
+$$
 
 
