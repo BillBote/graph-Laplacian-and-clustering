@@ -8,4 +8,7 @@ Read paper *ON THE CONSISTENCY OF GRAPH-BASED BAYESIAN LEARNING AND THE SCALABIL
 ### Notation
 
 $\mathcal{M}$: m-dimentional, compact, smooth, manifold embedded in $R^d$
+
 $\mathcal{M}_n={x_1,...,x_n}$
+
+$L^2(r):$ space of functions on underlying manifold, Square Integrable Functions in $L^2(r)$ can be writen in terms of the (normalized) eigenfunctions ${\phi_i}_{i=1}^{\infty}$ of Laplacian Beltrami operator $\Delta_{\mathcal{M}}$
