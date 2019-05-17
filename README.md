@@ -48,7 +48,7 @@ Plot of prior distribution and posterior distribution.
 
 We have obtain the simpler form of prior distribution via Karhunen-Loeve expansion
 
-## Task3
+## Task 3
 
 1.Simulation of data: two different dimensional objects--a 3-dim sphere and a 2-dim line.
 
@@ -60,4 +60,16 @@ We have obtain the simpler form of prior distribution via Karhunen-Loeve expansi
 
 * Build Laplacian matrix $\Delta$ from the weight matrix W;
 
-* Gain eigenpairs of matrix $\Delta$ {$\lambda_i,\phi_i$} and notice $\lambda_1<\lambda_2<...$
+* Gain eigenpairs of matrix $\Delta$ {$\lambda_i,\phi_i$} and notice $\lambda_1<\lambda_2<...$;
+
+* One way: plot the original points and set the color as corresponding eigenvectors; another way: using K-means clustering to do clustering on eigenvectors.
+
+## Task 4
+
+Consider Spectral Clustering. 
+
+This method is quite similar to Task 3. Read paper *A Tutorial on Spectral Clustering* to get more details.
+
+## Task 5
+
+Read paper *Path-Based Spectral Clustering: Guarantees, Robustness to Outliers, and Fast Algorithms*, *Scalable Sparse Subspace Clustering via Ordered Weighted l1 Regression* and slides *Data Dependent Distances for Unsupervised Learning*.
