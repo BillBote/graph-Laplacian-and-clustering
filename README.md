@@ -48,3 +48,16 @@ Plot of prior distribution and posterior distribution.
 
 We have obtain the simpler form of prior distribution via Karhunen-Loeve expansion
 
+## Task3
+
+1.Simulation of data: two different dimensional objects--a 3-dim sphere and a 2-dim line.
+
+2.Detecting two objects or just one out via Laplacian operator.
+
+3.Details:
+
+* Using kNN connection to build weight matrix W and notice each node is of same weight;
+
+* Build Laplacian matrix $\Delta$ from the weight matrix W;
+
+* Gain eigenpairs of matrix $\Delta$ {$\lambda_i,\phi_i$} and notice $\lambda_1<\lambda_2<...$
