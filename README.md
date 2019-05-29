@@ -73,3 +73,9 @@ This method is quite similar to Task 3. Read paper *A Tutorial on Spectral Clust
 ## Task 5
 
 Read paper *Path-Based Spectral Clustering: Guarantees, Robustness to Outliers, and Fast Algorithms*, *Scalable Sparse Subspace Clustering via Ordered Weighted l1 Regression* and slides *Data Dependent Distances for Unsupervised Learning*.
+
+## Task 6
+
+After finding out that the spectral method does work, more things could be done. Try more models with different objects. Try adding noise to models and test if this model is sensitive. Then try denoising procedure. 
+
+Then here comes another problem. Only a part of line is detected, then how to recover the whole thing. Could I find out the nearest neighbors of the line and iterate the procedure? Give a try.
